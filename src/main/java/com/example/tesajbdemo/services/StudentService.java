@@ -18,7 +18,6 @@ import java.util.List;
 public class StudentService implements IStudentService {
 
     private final IStudentRepository studentRepository;
-
     @Autowired
     public StudentService(IStudentRepository studentRepository) {
         this.studentRepository = studentRepository;
