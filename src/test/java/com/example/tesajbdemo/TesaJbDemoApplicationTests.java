@@ -7,6 +7,5 @@ class TesaJbDemoApplicationTests {
 
     @Test
     void contextLoads() {
-        
     }
 }
