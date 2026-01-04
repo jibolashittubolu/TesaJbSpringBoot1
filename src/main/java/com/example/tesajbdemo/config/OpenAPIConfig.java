@@ -10,7 +10,8 @@ public class OpenAPIConfig {
 
     @Bean
     public OpenAPI openAPI() {
-        return new OpenAPI()
+        return new OpenAPI() 
+            
                 .info(new Info()
                         .title("Tesa for Java Documentation")
                         .description("Tesa for Java Documentation")
