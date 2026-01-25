@@ -6,7 +6,6 @@ import com.example.tesajbdemo.model.entity.Student;
 import com.example.tesajbdemo.model.request.student.StudentQueryParams;
 
 import java.util.List;
-
 public interface IStudentRepository {
     long createStudent(Student student);
 
